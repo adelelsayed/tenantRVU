@@ -1,16 +1,15 @@
 # tenant_review
 
-A new Flutter project.
 
-## Getting Started
+a Flutter app to pin point a building on map and review it as a tenant
 
-This project is a starting point for a Flutter application.
+uses google geocoding api
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+depends on :
+  http: 0.13.3
+  provider: ^6.0.2
+  flutter_secure_storage : ^5.0.2
+  sqflite: ^2.0.2+1
+  google_maps_flutter: ^2.1.7
+  location: ^4.4.0
+  
